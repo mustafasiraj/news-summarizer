@@ -1,3 +1,4 @@
 streamlit
 beutifulsoup4
 requests
+urllib3
