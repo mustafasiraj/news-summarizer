@@ -1,12 +1,14 @@
 # 📰 News Summarizer Project
-This is an AI-powered News Summarizer created by **Mustafa (Age 13)** using Python and NLP libraries.
+This is an AI-powered News Summarizer created by **Mustafa** using Python and NLP libraries.
 It takes any news article **URL** and returns a **concise, readable summary** of the content.
+The colab link: https://colab.research.google.com/drive/1286yXVq4Co1BpGdOTKRnXbCvWlEb4WG1
 
 ---
 
 ## 💡 Features
 
 - 📥 Accepts a live URL of a news article
+- but if the article or news is private or doesn't allow the URL fetching then the bot wouldn't work
 - 🧠 Extracts the article text using `newspaper3k`
 - ✂️ Summarizes the text using natural language processing
 - 📄 Returns a short, clean summary for quick reading
@@ -17,7 +19,6 @@ It takes any news article **URL** and returns a **concise, readable summary** of
 
 - Python 🐍
 - Google Colab
-- `newspaper3k` (for article scraping)
 - `sumy` or `transformers` (depending on version)
 - GitHub for version control
 
@@ -26,8 +27,9 @@ It takes any news article **URL** and returns a **concise, readable summary** of
 ## 🚀 How to Use
 
 1. Paste the link of a news article (e.g. from CNN, BBC, etc.)
-2. Run the cells
-3. Get a short summary in seconds!
+2. Here's the link of colab
+3. Run the cells
+4. Get a short summary in seconds!
 
 ---
 
@@ -39,8 +41,7 @@ It takes any news article **URL** and returns a **concise, readable summary** of
 
 ## ✍️ Author
 
-Built by **Mustafa**, 13-year-old AI learner from Pakistan 🇵🇰  
-Mentored and guided by his father and ChatGPT.
+Built by **Mustafa**, AI learner from Pakistan 🇵🇰  
 
 ---
 
